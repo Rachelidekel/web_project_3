@@ -35,13 +35,14 @@
 }
 
 .header__image {
-  width: 984px;
+  max-width: 984px;
   height: 615px;
   top: 562px;
   border-radius: 0px;
   z-index: 1;
   margin: 0 auto;
   display: flex;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 960px) {
@@ -60,6 +61,7 @@
     top: 634px;
     object-fit: cover;
     margin-bottom: 88px;
+    width: 100%;
   }
 }
 

@@ -1,0 +1,222 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+    "header artist"
+    "image text"
+    "footer text";
+  gap: 48px 40px;
+  align-self: flex-end;
+  margin-bottom: 80px;
+}
+
+.place__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  max-width: 460px;
+  grid-area: header;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.place__span-accent {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+  max-width: 50px;
+  padding-bottom: 8px;
+}
+
+.place__artist-name {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  max-width: 456px;
+  grid-area: artist;
+  display: grid;
+  padding-top: 130px;
+}
+
+.place__span-artist {
+  display: block;
+}
+
+.place__text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.place__description {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 484px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.place__image {
+  height: 460px;
+  max-width: 460px;
+  left: 148px;
+  top: 2611px;
+  border-radius: 0px;
+  grid-area: image;
+  box-sizing: border-box;
+}
+
+.place__button {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21.78px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0278fe;
+  border-radius: 4px;
+  grid-area: footer;
+  max-width: 248px;
+  border: none;
+  margin-top: 0;
+  padding: 13px 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 48px;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+  text-decoration: underline #0278fe;
+}
+
+@media screen and (max-width: 960px) {
+  .place {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+  .place__title {
+    max-width: 340px;
+    height: 46px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__artist-name {
+    max-width: 352px;
+    padding-top: 0;
+  }
+
+  .place__description {
+    max-width: 352px;
+    min-height: 182px;
+  }
+  .place__image {
+    max-width: 340px;
+    height: 340px;
+    top: 3124px;
+    left: 24px;
+    object-fit: cover;
+  }
+
+  .place__button {
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "artist"
+      "image"
+      "text"
+      "footer";
+    row-gap: 30px;
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: 50px;
+  }
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+  }
+
+  .place__span-accent {
+    max-width: 288px;
+  }
+
+  .place__artist-name {
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 288px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .place__text {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .place__description {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+
+  .place__image {
+    height: 320px;
+    max-width: 320px;
+    left: 0px;
+    top: 3626px;
+    margin-right: 0;
+    margin-left: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .place__button {
+    max-width: 288px;
+    margin: 0 auto;
+    padding: 13px 40px;
+    height: 48px;
+  }
+}

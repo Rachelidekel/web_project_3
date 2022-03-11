@@ -31,6 +31,7 @@
   .item {
     max-width: 352px;
     height: 264px;
+    box-sizing: border-box;
   }
 }
 

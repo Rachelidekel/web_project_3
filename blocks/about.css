@@ -1,8 +1,7 @@
 .about {
   max-width: 1184px;
   min-height: 740px;
-  margin-left: 48px;
-  margin-right: 48px;
+  margin: 0 auto;
   width: 100%;
   margin-bottom: 132px;
   position: relative;
@@ -85,7 +84,7 @@
   display: block;
 }
 
-.content__button[type="submit"] {
+.content__button {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -96,14 +95,14 @@
   color: #ffffff;
   background-color: #0278fe;
   border: none;
-  height: 48px;
   max-width: 137px;
   border-radius: 4px;
   z-index: 2;
   text-decoration: none;
+  padding: 13px 20px;
 }
 
-.content__button[type="submit"]:hover {
+.content__button:hover {
   background-color: #0063d2;
   text-decoration: underline #0278fe;
   color: #ffffff;
