@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+h<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,26 +18,29 @@
           alt="Practicum Art Galliery"
           class="logo"
         />
-        <h1 class="header__title">From Homeland to Homeland</h1>
-        <p class="header__subtitle">
-          An epic journey from Kentucky to Burundi through Wales and Ukraine
-        </p>
-        <img
-          src="./images/kalegin-michail.png"
-          alt="image 'kalegin michail'"
-          class="header__image"
-        />
       </header>
+
       <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">From Homeland to Homeland</h1>
+          <p class="lead__subtitle">
+            An epic journey from Kentucky to Burundi through Wales and Ukraine
+          </p>
+          <img
+            src="./images/kalegin-michail.png"
+            alt="image 'kalegin michail'"
+            class="lead__image"
+          />
+        </section>
         <section class="intro">
           <h2 class="intro__title">
             Know the places your online pals come from a little better
           </h2>
-          <h3 class="intro__subtitle">
+          <p class="intro__subtitle">
             Every human being is an artist, a freedom being, called to
             participate in transforming and reshaping the conditions, thinking,
             and structures that shape and inform our lives.
-          </h3>
+          </p>
           <p class="intro__artist-name">— Joseph Beuys</p>
           <p class="intro__description">
             The town of Practicum has brought together professionals from
@@ -50,24 +53,24 @@
             collection. No matter where you're from, we're glad that you're our
             neighbor.
           </p>
-          <div class="items">
-            <img src="./images/item1.png" alt="image 'item1'" class="item" />
-            <img src="./images/item2.png" alt="image 'item2'" class="item" />
-            <img src="./images/item3.png" alt="image 'item3'" class="item" />
-            <img src="./images/item4.png" alt="image 'item4'" class="item" />
-            <img src="./images/item5.png" alt="image 'item5'" class="item" />
-            <img src="./images/item6.png" alt="image 'item6'" class="item" />
-            <img src="./images/item7.png" alt="image 'item7'" class="item" />
-            <img src="./images/item8.png" alt="image 'item8'" class="item" />
-          </div>
+        </section>
+        <section class="items">
+          <img src="./images/item1.png" alt="image 'item1'" class="item" />
+          <img src="./images/item2.png" alt="image 'item2'" class="item" />
+          <img src="./images/item3.png" alt="image 'item3'" class="item" />
+          <img src="./images/item4.png" alt="image 'item4'" class="item" />
+          <img src="./images/item5.png" alt="image 'item5'" class="item" />
+          <img src="./images/item6.png" alt="image 'item6'" class="item" />
+          <img src="./images/item7.png" alt="image 'item7'" class="item" />
+          <img src="./images/item8.png" alt="image 'item8'" class="item" />
         </section>
         <section class="places">
           <div class="place">
             <h2 class="place__title">Kyiv, Ukraine</h2>
-            <h3 class="place__artist-name">
-              <span class="place__span-accent">Artist</span>Natalia Dolgushina,
-              content producer
-            </h3>
+            <h3 class="place__artist-url">Artist</h3>
+            <h4 class="place__artist-name">
+              Natalia Dolgushina, content producer
+            </h4>
             <img
               src="./images/kyiv_ukraine.png"
               alt="image 'Kyiv Ukraine'"
@@ -102,12 +105,12 @@
           </div>
           <div class="place">
             <h2 class="place__title">Cricieth, Wales</h2>
-            <h3 class="place__artist-name">
-              <span class="place__span-accent">Artist</span>Steffan Warren, lead
-              editor<span class="place__span-artist"
+            <h3 class="place__artist-url">Artist</h3>
+            <h4 class="place__artist-name">
+              Steffan Warren, lead editor<span class="place__span-artist"
                 >Kseniya Glagoleva, project manager</span
               >
-            </h3>
+            </h4>
             <img
               src="./images/cricieth_wales.png"
               alt="image 'Cricieth wales'"
@@ -142,10 +145,8 @@
           </div>
           <div class="place">
             <h2 class="place__title">Berea, USA</h2>
-            <h3 class="place__artist-name">
-              <span class="place__span-accent">Artist</span>Travis Turner,
-              author and editor
-            </h3>
+            <h3 class="place__artist-url">Artist</h3>
+            <h4 class="place__artist-name">Travis Turner, author and editor</h4>
             <img
               src="./images/berea_usa.png"
               alt="image 'Berea USA'"
@@ -180,10 +181,8 @@
           </div>
           <div class="place">
             <h2 class="place__title">Muramvya, Burundi</h2>
-            <h3 class="place__artist-name">
-              <span class="place__span-accent">Artist</span>Grevisse Kenguruka,
-              tech editor
-            </h3>
+            <h3 class="place__artist-url">Artist</h3>
+            <h4 class="place__artist-name">Grevisse Kenguruka, tech editor</h4>
             <img
               src="./images/muramvya_burundi.png"
               alt="image 'Muramvya Burundi'"
@@ -226,10 +225,8 @@
           </div>
           <div class="place">
             <h2 class="place__title">Tel-Aviv, ISRAEL</h2>
-            <h3 class="place__artist-name">
-              <span class="place__span-accent">Artist</span>Racheli Dekel, lead
-              editor
-            </h3>
+            <h3 class="place__artist-url">Artist</h3>
+            <h4 class="place__artist-name">Racheli Dekel, lead editor</h4>
             <img
               src="./images/tel-aviv_israel.jpg"
               alt="image 'Tel Aviv Israel'"
@@ -266,15 +263,13 @@
         </section>
         <section class="about">
           <div class="about__content">
-            <h2 class="content__title">Visit us</h2>
-            <h3 class="content__subtitle">
-              Year-round<span class="content__span-accent"
-                >Practicum Art Gallery</span
-              >404 Tim Berners-Lee Ave
+            <h2 class="about__title">Visit us</h2>
+            <h3 class="about__subtitle">
+              Year-round Practicum Art Gallery 404 Tim Berners-Lee Ave
             </h3>
             <a
               href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-              class="content__button"
+              class="about__button"
               >Buy tickets</a
             >
           </div>

@@ -3,12 +3,31 @@
 ### Overview
 
 - Intro
+- Description
+- Project features
 - Figma
 - Images
 
 **Intro**
 
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project that showcases the hometowns of some of Practicum's employees, as art exibits, for every home town there is a work of art.
+
+# Practicum Art Gallery
+
+This is the third project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design in Figma. Practicum Art Gallery present all the artwork made by well known artists about the emplyees hometowns. Any work of art can be sold through the site. Next to each work of art there is a description fo the city and its uniqueness.
+
+link to my project in githbu:
+https://rachelidekel.github.io/web_project_3/
+
+## Project features
+
+- Semantic HTML5
+- Rresponsive layout
+- Flat BEM
+- CSS grid layout
+- Media Queries
+- Flexbox
+- Transition
 
 **Figma**
 
@@ -16,6 +35,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
+The images was exporting as png directly from Figma and optimize in (https://tinypng.com/),in order for the project loads faster, the logo was exporting as svg directly from Figma and otimize in (https://jakearchibald.github.io/svgomg/).

@@ -1,0 +1,21 @@
+.item {
+  max-width: 284px;
+  height: 213px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .item {
+    max-width: 352px;
+    height: 264px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    max-width: 288px;
+    height: 216px;
+  }
+}

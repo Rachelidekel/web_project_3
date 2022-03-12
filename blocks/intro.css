@@ -1,6 +1,5 @@
 .intro {
   position: relative;
-  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -17,6 +16,7 @@
   max-width: 785px;
   margin-left: 148px;
   margin-top: 92px;
+  margin-bottom: 0;
 }
 
 .intro__subtitle {
@@ -32,6 +32,7 @@
   margin-left: 148px;
   position: relative;
   margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .intro__artist-name {
@@ -46,6 +47,7 @@
   margin-right: 412px;
   margin-top: 10px;
   max-width: 720px;
+  margin-bottom: 0;
 }
 
 .intro__description {
@@ -60,12 +62,15 @@
   color: #ffffff;
   max-width: 720px;
   margin-left: 148px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 960px) {
   .intro {
     margin: 0 auto;
   }
+
   .intro__title {
     max-width: 720px;
     padding-bottom: 40px;
@@ -88,28 +93,23 @@
 }
 
 @media screen and (max-width: 600px) {
-  .intro {
-    margin: 0 auto;
-  }
   .intro__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     padding-bottom: 40px;
-    margin: 0 auto;
   }
 
   .intro__subtitle {
     max-width: 288px;
-    margin: 0 auto;
     line-height: 30px;
   }
+
   .intro__artist-name {
-    margin: 0 auto;
     max-width: 288px;
   }
+
   .intro__description {
     max-width: 288px;
-    margin: 0 auto;
   }
 }

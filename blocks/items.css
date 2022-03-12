@@ -1,6 +1,5 @@
 .items {
   max-width: 1184px;
-  height: 442px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   margin: 0 auto;
@@ -10,45 +9,23 @@
   margin-top: 118px;
 }
 
-.item {
-  max-width: 284px;
-  height: 213px;
-  box-sizing: border-box;
-  padding: 0;
-}
-
 @media screen and (max-width: 960px) {
   .items {
     max-width: 720px;
-    height: 1104px;
     margin-top: 90px;
     margin-bottom: 88px;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     margin: 0 auto;
-  }
-
-  .item {
-    max-width: 352px;
-    height: 264px;
-    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 600px) {
   .items {
     max-width: 288px;
-    height: 1812px;
     margin-top: 92px;
     margin-bottom: 62px;
     margin: 0 auto;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     row-gap: 12px;
-  }
-
-  .item {
-    max-width: 288px;
-    height: 216px;
   }
 }
