@@ -43,6 +43,7 @@
   margin: 0 auto;
   display: flex;
   object-fit: cover;
+  width: 100%;
 }
 
 @media screen and (max-width: 960px) {
