@@ -1,5 +1,6 @@
 .lead {
   margin: 0 auto;
+  position: relative;
 }
 
 .lead__title {
@@ -15,7 +16,6 @@
   margin-left: 244px;
   margin-right: 244px;
   position: relative;
-  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -32,6 +32,7 @@
   position: relative;
   margin: 0 auto;
   padding-bottom: 64px;
+  margin-top: 80px;
 }
 
 .lead__image {

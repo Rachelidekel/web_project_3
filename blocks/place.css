@@ -38,8 +38,10 @@
   text-align: left;
   color: #aaaaaa;
   max-width: 50px;
-  padding-bottom: 8px;
+  display: grid;
+  grid-area: artist;
   text-transform: uppercase;
+  padding-bottom: 0;
 }
 
 .place__artist-name {
@@ -54,13 +56,16 @@
   max-width: 456px;
   grid-area: artist;
   display: grid;
-  padding-top: 130px;
+  margin-top: 8px;
   margin-right: 0;
   margin-left: 0;
+  align-self: flex-end;
+  margin-bottom: 0;
 }
 
 .place__span-artist {
   display: block;
+  align-self: flex-end;
 }
 
 .place__text {
