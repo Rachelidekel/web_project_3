@@ -2,17 +2,4 @@
   max-width: 1280px;
   background-color: #2a2c2f;
   margin: 0 auto;
-  width: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  .page {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .page {
-    max-width: 600px;
-  }
 }

@@ -1,6 +1,6 @@
 .intro {
   position: relative;
-  margin: 0 auto;
+  margin-left: 148px;
 }
 
 .intro__title {
@@ -14,9 +14,8 @@
   color: #ffffff;
   position: relative;
   max-width: 785px;
-  margin-left: 148px;
   margin-top: 92px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
 .intro__subtitle {
@@ -29,10 +28,9 @@
   text-align: left;
   color: #ffffff;
   max-width: 720px;
-  margin-left: 148px;
   position: relative;
-  margin-top: 40px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .intro__artist-name {
@@ -45,9 +43,9 @@
   text-align: right;
   color: #ffffff;
   margin-right: 412px;
-  margin-top: 10px;
+  margin-top: 0;
   max-width: 720px;
-  margin-bottom: 0;
+  margin-bottom: 32px;
 }
 
 .intro__description {
@@ -58,58 +56,43 @@
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-  padding-top: 32px;
   color: #ffffff;
   max-width: 720px;
-  margin-left: 148px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 960px) {
   .intro {
-    margin: 0 auto;
-  }
-
-  .intro__title {
     max-width: 720px;
-    padding-bottom: 40px;
-    margin-top: 88px;
     margin: 0 auto;
   }
 
-  .intro__subtitle {
-    padding-bottom: 10px;
-    margin: 0 auto;
-  }
   .intro__artist-name {
-    padding-bottom: 32px;
-    margin: 0 auto;
+    margin-right: 0;
   }
+
   .intro__description {
-    padding-bottom: 90px;
-    margin: 0 auto;
+    margin-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .intro__title {
+  .intro {
     max-width: 288px;
+  }
+
+  .intro__title {
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 40px;
+    margin-top: 0;
   }
 
   .intro__subtitle {
-    max-width: 288px;
     line-height: 30px;
   }
 
-  .intro__artist-name {
-    max-width: 288px;
-  }
-
   .intro__description {
-    max-width: 288px;
+    margin-bottom: 90px;
   }
 }

@@ -4,19 +4,12 @@
   max-width: 270px;
   height: 70px;
   display: block;
-}
-
-@media screen and (max-width: 960px) {
-  .logo {
-    margin-bottom: 90px;
-  }
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 600px) {
   .logo {
     max-width: 200px;
     height: 51.85px;
-    margin-top: 20px;
-    margin-bottom: 50px;
   }
 }
