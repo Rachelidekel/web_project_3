@@ -16,7 +16,7 @@
   margin-left: 244px;
   margin-right: 244px;
   position: relative;
-  margin-bottom: 0;
+  margin-bottom: 32px;
   margin-top: 0;
 }
 
@@ -32,8 +32,8 @@
   color: #ffffff;
   position: relative;
   margin: 0 auto;
-  padding-bottom: 64px;
-  margin-top: 32px;
+  margin-bottom: 64px;
+  margin-top: 0;
 }
 
 .lead__image {
@@ -41,10 +41,16 @@
   height: 615px;
   border-radius: 0px;
   z-index: 1;
-  margin: 0 auto;
+  margin: 0 auto 92px;
   display: flex;
   object-fit: cover;
   width: 100%;
+}
+
+@media screen and (max-width: 1094px) {
+  .lead__title {
+    margin: 0 auto 32px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -54,13 +60,12 @@
   }
 
   .lead__title {
-    margin: 0 auto;
     max-width: 720px;
-    margin-bottom: 32px;
+    margin: 0 auto 32px;
   }
 
   .lead__subtitle {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 
   .lead__image {
@@ -81,18 +86,18 @@
 @media screen and (max-width: 600px) {
   .lead {
     max-width: 320px;
-    margin-top: 50px;
+    margin-top: 50.15px;
   }
   .lead__title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
   }
 
   .lead__subtitle {
     max-width: 288px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     font-size: 16px;
     line-height: 20px;
   }

@@ -21,19 +21,15 @@
 @media screen and (max-width: 960px) {
   .footer {
     margin: 0 auto;
-    margin-top: 88px;
+    margin-top: 0;
   }
+
   .footer__copyrights {
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .footer {
-    margin-top: 62px;
-    margin: 0 auto;
-  }
-
   .footer__copyrights {
     line-height: 14px;
   }

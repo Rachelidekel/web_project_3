@@ -134,10 +134,7 @@
 @media screen and (max-width: 600px) {
   .about {
     max-width: 320px;
-    margin-top: 64px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 64px;
+    margin: 64px auto 64px;
   }
 
   .about__content {

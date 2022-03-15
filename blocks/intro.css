@@ -14,7 +14,7 @@
   color: #ffffff;
   position: relative;
   max-width: 785px;
-  margin-top: 92px;
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 750px) {
   .intro {
-    margin-left: 15px;
+    margin-left: 8px;
   }
 
   .intro__artist-name {
@@ -92,7 +92,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    margin-top: 0;
   }
 
   .intro__subtitle {
