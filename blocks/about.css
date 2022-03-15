@@ -125,6 +125,12 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .about {
+    margin-top: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .about {
     max-width: 320px;

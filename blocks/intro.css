@@ -73,9 +73,20 @@
   }
 }
 
+@media screen and (max-width: 750px) {
+  .intro {
+    margin-left: 15px;
+  }
+
+  .intro__artist-name {
+    padding-right: 15px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .intro {
     max-width: 288px;
+    margin: 0 auto;
   }
 
   .intro__title {
@@ -86,5 +97,9 @@
 
   .intro__subtitle {
     line-height: 30px;
+  }
+
+  .intro__artist-name {
+    padding-right: 0;
   }
 }
