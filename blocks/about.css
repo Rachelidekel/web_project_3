@@ -134,6 +134,7 @@
   .about {
     max-width: 320px;
     margin: 64px auto 64px;
+    height: 254px;
   }
 
   .about__content {
@@ -149,7 +150,7 @@
     font-size: 32px;
     line-height: 35px;
   }
-  .about__subtitle {
+  .about__subtitle-item {
     font-size: 14px;
     line-height: 16px;
   }

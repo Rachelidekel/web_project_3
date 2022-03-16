@@ -77,13 +77,6 @@
 }
 
 .place__text {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #ffffff;
   grid-area: text;
   display: flex;
@@ -168,6 +161,8 @@
 
   .place__description {
     max-width: 352px;
+    font-size: 16px;
+    line-height: 26.08px;
   }
 
   .place__image {
@@ -226,8 +221,6 @@
 
   .place__description {
     max-width: 288px;
-    font-size: 16px;
-    line-height: 26.08px;
   }
 
   .place__image {
