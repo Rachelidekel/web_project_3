@@ -134,7 +134,7 @@
   .about {
     max-width: 320px;
     margin: 64px auto 64px;
-    height: 254px;
+    min-height: 254px;
   }
 
   .about__content {
